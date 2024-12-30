@@ -7,7 +7,7 @@
 
         public function __construct($name,$email,$biography){
             //initialisation prop heritage
-            //::parent($name,$email);
+            // ::parent __construct($name,$email);
             $this->name = $name;
             $this->email = $email;
             $this->biography = $biography;
